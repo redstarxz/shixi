@@ -253,6 +253,7 @@
 - b_lora/B_LoRA_colorful-squirrel.safetensors
 - b_lora/B_LoRA_pencil_boy.safetensors
 - badquality_v02.safetensors
+- Canopus-LoRA-Flux-UltraRealism.safetensors
 - charTurnBetaLora.safetensors
 - COOLKIDS_MERGE_V2.5.safetensors
 - Cyberpunk_typeface_flux_lora_v1.safetensors
@@ -313,8 +314,11 @@
 - SDXLrender_v2.0.safetensors
 - SECourses_3D_Render_Style_Fixed_Dataset_With_Captions.safetensors
 - Segmind-VegaRT.safetensors
+- Sketch_Illustration_Style_LoRA_-_Pony_V6_XL.safetensors
+- Smooth_Anime_2_Style_SDXL_LoRA_Pony_Diffusion_V6_XL.safetensors
 - theovercomer8sContrastFix_sd15.safetensors
 - theovercomer8sContrastFix_sd21768.safetensors
+- Ton618-Epic-Realism-Flux-LoRA.safetensors
 - weight_slider-LECO-v1.safetensors
 
 ## Embeddings
