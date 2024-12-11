@@ -207,6 +207,51 @@
     "notes": "Fork of https://github.com/balazik/ComfyUI-PuLID-Flux which fixes forward_orig method"
   },
   {
+    "repo": "https://github.com/lldacing/ComfyUI_StableHair_ll",
+    "commit": "4bbae92"
+  },
+  {
+    "repo": "https://github.com/vuongminh1907/ComfyUI_ZenID",
+    "commit": "3314d0d"
+  },
+  {
+    "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
+    "commit": "d416ad2"
+  },
+  {
+    "repo": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch",
+    "commit": "2abf837"
+  },
+  {
+    "repo": "https://github.com/crystian/ComfyUI-Crystools",
+    "commit": "03a61d6"
+  },
+  {
+    "repo": "https://github.com/chflame163/ComfyUI_LayerStyle",
+    "commit": "04fa5d6"
+  },
+  {
+    "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
+    "commit": "eaa5b57"
+  },
+  {
+    "repo": "https://github.com/Nourepide/ComfyUI-Allor",
+    "commit": "af9caec"
+  },
+  {
+    "repo": "https://github.com/chflame163/ComfyUI_LayerStyle_Advance",
+    "commit": "61660a4"
+  },
+  {
+    "repo": "https://github.com/chrisgoringe/cg-use-everywhere",
+    "commit": "cd06259"
+  },
+  {
+    "repo": "https://github.com/kijai/ComfyUI-DepthAnythingV2",
+    "commit": "003d7b4"
+  },
+
+  {
     "repo": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
     "commit": "8e680e9"
   }
