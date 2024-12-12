@@ -250,6 +250,24 @@
     "repo": "https://github.com/kijai/ComfyUI-DepthAnythingV2",
     "commit": "003d7b4"
   },
+  {
+    "repo": "https://github.com/city96/ComfyUI-GGUF",
+    "commit": "23b9817"
+  },
+  {
+    "repo": "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl",
+    "commit": "0a87efa"
+  },
+  {
+    "repo": "https://github.com/kijai/ComfyUI-Florence2",
+    "commit": "27714ba"
+  },
+
+
+  {
+    "repo": "https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils",
+    "commit": "aee1204"
+  },
 
   {
     "repo": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
