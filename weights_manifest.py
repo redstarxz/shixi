@@ -90,17 +90,6 @@ class WeightsManifest:
         weights_map = {}
 
         def generate_weights_map(keys, directory_name):
-
-            # Special case for clip-vit-large-patch14
-            # ComfyUI-HunyuanVideoWrapper looks for it only in clip directory
-            if directory_name.lower() == "clip" and "clip-vit-large-patch14" in keys:
-                return {
-                    "clip-vit-large-patch14": {
-                        "url": f"{BASE_URL}/clip/clip-vit-large-patch14.tar",
-                        "dest": f"{MODELS_PATH}/clip",
-                    }
-                }
-
             directory_name = (
                 "LLM" if directory_name == "LLM" else directory_name.lower()
             )
@@ -110,13 +99,23 @@ class WeightsManifest:
                 "clip": f"{MODELS_PATH}/text_encoders",
             }.get(directory_name, f"{MODELS_PATH}/{directory_name}")
 
-            return {
+            weights_map = {
                 key: {
                     "url": f"{BASE_URL}/{directory_name}/{key}.tar",
                     "dest": dest_path,
                 }
                 for key in keys
             }
+
+            # Special case for clip-vit-large-patch14
+            # ComfyUI-HunyuanVideoWrapper looks for it only in clip directory
+            if directory_name.lower() == "clip" and "clip-vit-large-patch14" in keys:
+                weights_map["clip-vit-large-patch14"] = {
+                    "url": f"{BASE_URL}/clip/clip-vit-large-patch14.tar",
+                    "dest": f"{MODELS_PATH}/clip",
+                }
+
+            return weights_map
 
         def update_weights_map(source_map):
             for k, v in source_map.items():
@@ -145,6 +144,7 @@ class WeightsManifest:
             "cocoamixxl_v4Stable.safetensors",
             "copaxTimelessxlSDXL1_v8.safetensors",
             "epicrealismXL_v10.safetensors",
+            "dreamshaperXL_sfwV2TurboDPMSDE.safetensors",
             "GPEN-BFR-1024.onnx",
             "GPEN-BFR-2048.onnx",
             "GPEN-BFR-512.onnx",
