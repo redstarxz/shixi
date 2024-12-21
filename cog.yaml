@@ -3,7 +3,7 @@ build:
   cuda: "12.1"
   system_packages:
     - ffmpeg
-  python_version: "3.10.6"
+  python_version: "3.10"
   python_packages:
     - torch
     - torchvision
@@ -26,6 +26,9 @@ build:
     - kornia>=0.7.1
     - websocket-client==1.6.3
     - diffusers>=0.31.0
+
+    # ComfyUI-AdvancedLivePortrait
+    - dill
 
     # Inspire
     - webcolors
@@ -96,7 +99,6 @@ build:
 
     # For train.py
     - huggingface_hub
-
     - opencv-contrib-python
     - pymatting
     - blend_modes
@@ -128,6 +130,8 @@ build:
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/docopt-0.6.2-py2.py3-none-any.whl
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/hydra_core-1.3.2-py3-none-any.whl
  
+    # ComfyUI-segment-anything-2
+    - iopath
   run:
     - curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/download/v0.8.1/pget_linux_x86_64" && chmod +x /usr/local/bin/pget
     - pip install onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/

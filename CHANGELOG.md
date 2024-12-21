@@ -1,3 +1,79 @@
+## 2024-12-20
+
+New custom nodes:
+
+- [Add ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2) custom node
+- [Add ComfyUI-segment-anything-2](https://github.com/kijai/ComfyUI-segment-anything-2) custom node
+
+New weights:
+
+- [Add CN-anytest_v3-50000_fp16.safetensors to controlnet](https://huggingface.co/2vXpSwA7/iroiro-lora/blob/main/test_controlnet2/CN-anytest_v3-50000_fp16.safetensors)
+- [Add realvisxlV50_v50Bakedvae.safetensors to checkpoints](https://civitai.com/models/139562?modelVersionId=789646)
+- [Add ltx-video-2b-v0.9.1.safetensors to checkpoints](https://huggingface.co/Lightricks/LTX-Video/blob/main/ltx-video-2b-v0.9.1.safetensors)
+
+Florence2 weights:
+
+- [Add Florence-2-large-ft to LLM](https://huggingface.co/microsoft/Florence-2-large-ft)
+- [Add Florence-2-large-PromptGen-v1.5 to LLM](https://huggingface.co/MiaoshouAI/Florence-2-large-PromptGen-v1.5)
+- [Add Florence-2-base-PromptGen-v2.0 to LLM](https://huggingface.co/MiaoshouAI/Florence-2-base-PromptGen-v2.0)
+- [Add Florence-2-large to LLM](https://huggingface.co/microsoft/Florence-2-large)
+- [Add Florence-2-base-ft to LLM](https://huggingface.co/microsoft/Florence-2-base-ft)
+- [Add Florence-2-base-PromptGen-v1.5 to LLM](https://huggingface.co/MiaoshouAI/Florence-2-base-PromptGen-v1.5)
+- [Add Florence-2-base to LLM](https://huggingface.co/microsoft/Florence-2-base)
+- [Add Florence-2-SD3-Captioner to LLM](https://huggingface.co/gokaygokay/Florence-2-SD3-Captioner)
+- [Add Florence-2-Flux-Large to LLM](https://huggingface.co/gokaygokay/Florence-2-Flux-Large)
+- [Add Florence-2-DocVQA to LLM](https://huggingface.co/HuggingFaceM4/Florence-2-DocVQA)
+- [Add CogFlorence-2.2-Large to LLM](https://huggingface.co/thwri/CogFlorence-2.2-Large)
+- [Add CogFlorence-2.1-Large to LLM](https://huggingface.co/thwri/CogFlorence-2.1-Large)
+- [Add Florence-2-large-PromptGen-v2.0 to LLM](https://huggingface.co/MiaoshouAI/Florence-2-large-PromptGen-v2.0)
+
+SAM2 weights:
+
+- [Add sam2_hiera_tiny.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2_hiera_tiny.safetensors)
+- [Add sam2_hiera_small.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2_hiera_small.safetensors)
+- [Add sam2_hiera_large.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2_hiera_large.safetensors)
+- [Add sam2_hiera_base_plus.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2_hiera_base_plus.safetensors)
+- [Add sam2.1_hiera_tiny.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_tiny.safetensors)
+- [Add sam2.1_hiera_tiny-fp16.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_tiny-fp16.safetensors)
+- [Add sam2.1_hiera_small.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_small.safetensors)
+- [Add sam2.1_hiera_small-fp16.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_small-fp16.safetensors)
+- [Add sam2.1_hiera_large.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_large.safetensors)
+- [Add sam2.1_hiera_large-fp16.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_large-fp16.safetensors)
+- [Add sam2.1_hiera_base_plus.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_base_plus.safetensors)
+- [Add sam2.1_hiera_base_plus-fp16.safetensors to sam2](https://huggingface.co/Kijai/sam2-safetensors/blob/main/sam2.1_hiera_base_plus-fp16.safetensors)
+
+## 2024-12-19
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/4c82741...c441048)
+
+New weights:
+
+- [Add pixelwave_flux1Dev03.safetensors to diffusion_models](https://civitai.com/models/141592?modelVersionId=992642)
+- [Add juggernautXLInpainting_xiInpainting.safetensors to checkpoints](https://civitai.com/models/862813/juggernaut-xl-inpainting-updated)
+- [Add llava-llama-3-8b-v1_1-transformers to LLM models](https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-transformers)
+
+New custom nodes:
+
+- [Add ComfyUI-AdvancedLivePortrait](https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait)
+
+Custom nodes updated:
+
+- [Updated ComfyUI-Fluxtapoz](https://github.com/logtd/ComfyUI-Fluxtapoz/compare/4d30397...a6295c0)
+- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/8e680e9...da2fb54)
+- [Updated ComfyUI-PuLID-Flux](https://github.com/zhangp365/ComfyUI-PuLID-Flux/compare/f49d34f...29e1046)
+- [Updated rgthree-comfy](https://github.com/rgthree/rgthree-comfy/compare/6d22bbf...5f2d8a1)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/2838126...973ceb6)
+- [Updated comfyui-reactor-node](https://github.com/Gourieff/comfyui-reactor-node/compare/b3d85c7...0576662)
+- [Updated ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts/compare/d6657cc...19a82e2)
+- [Updated ComfyUI-PhotoMaker-Plus](https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus/compare/604feb3...459f5c0)
+- [Updated ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials/compare/5a4e5cd...33ff89f)
+- [Updated ComfyUI_tinyterraNodes](https://github.com/TinyTerra/ComfyUI_tinyterraNodes/compare/0387940...339ee9c)
+- [Updated ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet/compare/172543b...9632af9)
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/fb56b2d...6953fa2)
+- [Updated ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved/compare/b3e508a...4f1344e)
+- [Updated comfyui-tooling-nodes](https://github.com/Acly/comfyui-tooling-nodes/compare/50c3ffd...fe39d22)
+- [Updated ComfyUI-Inspire-Pack](https://github.com/ltdrdata/ComfyUI-Inspire-Pack/compare/18f02d9...685c5c0)
+
 ## 2024-12-13
 
 - [Add dreamshaperXL_sfwV2TurboDPMSDE.safetensors to checkpoints](https://civitai.com/models/112902?modelVersionId=341981)
