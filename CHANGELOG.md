@@ -1,3 +1,17 @@
+## 2025-01-08
+- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/e3a2fa7...11ee15a)
+- [Updated Comfyui-In-Context-Lora-Utils](https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils/compare/aee1204...6ef772d)
+- [Updated ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF/compare/23b9817...8098c71)
+- [Updated cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere/compare/cd06259...ce510b9)
+- [Updated ComfyUI_LayerStyle_Advance](https://github.com/chflame163/ComfyUI_LayerStyle_Advance/compare/61660a4...4991451)
+- [Updated ComfyUI_LayerStyle](https://github.com/chflame163/ComfyUI_LayerStyle/compare/04fa5d6...f8439eb)
+- [Updated ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use/compare/d416ad2...db14b95)
+- [Updated ComfyUI_ZenID](https://github.com/vuongminh1907/ComfyUI_ZenID/compare/3314d0d...a03144e)
+- [Updated comfyui-reactor-node](https://github.com/Gourieff/comfyui-reactor-node/compare/3ea587d...a430758)
+- [Updated ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/compare/e617ff2...ff3fdfe)
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/78753db...c5216a5)
+
+- [Updated ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack/compare/8628fa3...769bc0f)
 ## 2025-01-06
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/c441048...916d1e1)

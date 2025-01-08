@@ -12,11 +12,10 @@
     "commit": "9402ecf",
     "notes": "Fork of https://github.com/ltdrdata/ComfyUI-Impact-Pack which prevents automatic installation of dependencies"
   },
- {
+  {
     "repo": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack",
-    "commit": "8628fa3"
+    "commit": "769bc0f"
   },
-
   {
     "repo": "https://github.com/ltdrdata/ComfyUI-Inspire-Pack",
     "commit": "bcbed07"
@@ -35,7 +34,7 @@
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
-    "commit": "78753db"
+    "commit": "c5216a5"
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
@@ -59,7 +58,7 @@
   },
   {
     "repo": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale",
-    "commit": "e617ff2"
+    "commit": "ff3fdfe"
   },
   {
     "repo": "https://github.com/cubiq/ComfyUI_essentials",
@@ -79,7 +78,7 @@
   },
   {
     "repo": "https://github.com/Gourieff/comfyui-reactor-node",
-    "commit": "3ea587d"
+    "commit": "a430758"
   },
   {
     "repo": "https://github.com/cubiq/ComfyUI_InstantID",
@@ -217,11 +216,11 @@
   },
   {
     "repo": "https://github.com/vuongminh1907/ComfyUI_ZenID",
-    "commit": "3314d0d"
+    "commit": "a03144e"
   },
   {
     "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
-    "commit": "d416ad2"
+    "commit": "db14b95"
   },
   {
     "repo": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch",
@@ -233,7 +232,7 @@
   },
   {
     "repo": "https://github.com/chflame163/ComfyUI_LayerStyle",
-    "commit": "04fa5d6"
+    "commit": "f8439eb"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
@@ -245,11 +244,11 @@
   },
   {
     "repo": "https://github.com/chflame163/ComfyUI_LayerStyle_Advance",
-    "commit": "61660a4"
+    "commit": "4991451"
   },
   {
     "repo": "https://github.com/chrisgoringe/cg-use-everywhere",
-    "commit": "cd06259"
+    "commit": "ce510b9"
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-DepthAnythingV2",
@@ -257,7 +256,7 @@
   },
   {
     "repo": "https://github.com/city96/ComfyUI-GGUF",
-    "commit": "23b9817"
+    "commit": "8098c71"
   },
   {
     "repo": "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl",
@@ -271,15 +270,13 @@
     "repo": "https://github.com/fssorc/ComfyUI_FaceShaper",
     "commit": "308ed8f"
   },
-
   {
     "repo": "https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils",
-    "commit": "aee1204"
+    "commit": "6ef772d"
   },
-
   {
     "repo": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
-    "commit": "e3a2fa7"
+    "commit": "11ee15a"
   },
   {
     "repo": "https://github.com/fofr/ComfyUI-AdvancedLivePortrait",
