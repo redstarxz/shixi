@@ -8,10 +8,15 @@
     "commit": "5a049bd"
   },
   {
-    "repo": "https://github.com/fofr/ComfyUI-Impact-Pack",
-    "commit": "9ad8f85",
+    "repo": "https://github.com/redstarxz/ComfyUI-Impact-Pack",
+    "commit": "9402ecf",
     "notes": "Fork of https://github.com/ltdrdata/ComfyUI-Impact-Pack which prevents automatic installation of dependencies"
   },
+ {
+    "repo": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack",
+    "commit": "8628fa3"
+  },
+
   {
     "repo": "https://github.com/ltdrdata/ComfyUI-Inspire-Pack",
     "commit": "685c5c0"
@@ -262,7 +267,10 @@
     "repo": "https://github.com/kijai/ComfyUI-Florence2",
     "commit": "27714ba"
   },
-
+  {
+    "repo": "https://github.com/fssorc/ComfyUI_FaceShaper",
+    "commit": "308ed8f"
+  },
 
   {
     "repo": "https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils",
