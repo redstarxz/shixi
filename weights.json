@@ -30,6 +30,7 @@
     "dreamshaperXL_alpha2Xl10.safetensors",
     "dreamshaperXL_lightningDPMSDE.safetensors",
     "dreamshaperXL_sfwV2TurboDPMSDE.safetensors",
+    "dreamshaperXL_v21TurboDPMSDE.safetensors",
     "dynavision_v20Bakedvae.safetensors",
     "epicrealism_naturalSinRC1VAE.safetensors",
     "epicrealism_pureEvolutionV5-inpainting.safetensors",
@@ -262,10 +263,13 @@
     "COOLKIDS_MERGE_V2.5.safetensors",
     "Cyberpunk_typeface_flux_lora_v1.safetensors",
     "flux-RealismLora.safetensors",
+    "FLUX.1-Turbo-Alpha.safetensors",
     "flux1-canny-dev-lora.safetensors",
     "flux1-depth-dev-lora.safetensors",
+    "flux_turbo_v1_1.safetensors",
     "fofr/emoji.safetensors",
     "glowneon_xl_v1.safetensors",
+    "hands-xl-sd-15-flux1-dev.safetensors",
     "Harrlogos_v2.0.safetensors",
     "hd_helper_v1.safetensors",
     "Hyper-FLUX.1-dev-16steps-lora.safetensors",
@@ -794,5 +798,9 @@
     "sam2_hiera_large.safetensors",
     "sam2_hiera_small.safetensors",
     "sam2_hiera_tiny.safetensors"
+  ],
+  "RESWAPPER": [
+    "reswapper_128.onnx",
+    "reswapper_256.onnx"
   ]
 }
