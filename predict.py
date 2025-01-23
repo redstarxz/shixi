@@ -13,13 +13,18 @@ from config import config
 
 
 os.environ["DOWNLOAD_LATEST_WEIGHTS_MANIFEST"] = "true"
+os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
+
 mimetypes.add_type("image/webp", ".webp")
 OUTPUT_DIR = "/tmp/outputs"
 INPUT_DIR = "/tmp/inputs"
 COMFYUI_TEMP_OUTPUT_DIR = "ComfyUI/temp"
 ALL_DIRECTORIES = [OUTPUT_DIR, INPUT_DIR, COMFYUI_TEMP_OUTPUT_DIR]
 
-with open("examples/api_workflows/advanced_live_portrait_api.json", "r") as file:
+IMAGE_TYPES = [".jpg", ".jpeg", ".png", ".webp"]
+VIDEO_TYPES = [".mp4", ".mov", ".avi", ".mkv"]
+
+with open("examples/api_workflows/glif_custom_lora_flux_hf.json", "r") as file:
     EXAMPLE_WORKFLOW_JSON = file.read()
 
 
@@ -63,7 +68,7 @@ class Predictor(BasePredictor):
         elif file_extension == ".zip":
             with zipfile.ZipFile(input_file, "r") as zip_ref:
                 zip_ref.extractall(INPUT_DIR)
-        elif file_extension in [".jpg", ".jpeg", ".png", ".webp"]:
+        elif file_extension in IMAGE_TYPES + VIDEO_TYPES:
             shutil.copy(input_file, os.path.join(INPUT_DIR, f"input{file_extension}"))
         else:
             raise ValueError(f"Unsupported file type: {file_extension}")
