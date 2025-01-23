@@ -26,6 +26,11 @@
 - [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/78753db...c5216a5)
 
 - [Updated ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack/compare/8628fa3...769bc0f)
+## 2025-01-14
+
+- [Add ComfyUI-GlifNodes](https://github.com/glifxyz/ComfyUI-GlifNodes)
+  - Allows downloading safetensors lora weights from URLs using the `LoraLoaderFromURL` node, see [examples/api_workflows/glif_custom_lora_flux_civitai.json](examples/api_workflows/glif_custom_lora_flux_civitai.json)
+
 ## 2025-01-06
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/c441048...916d1e1)

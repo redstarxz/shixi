@@ -98,7 +98,6 @@ build:
     - pytorch-lightning>=2.2.1
 
     # For train.py
-    - huggingface_hub
     - opencv-contrib-python
     - pymatting
     - blend_modes
@@ -132,6 +131,8 @@ build:
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/docopt-0.6.2-py2.py3-none-any.whl
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/hydra_core-1.3.2-py3-none-any.whl
  
+    # For train.py and custom loras
+    - huggingface_hub[hf-transfer]
     # ComfyUI-segment-anything-2
     - iopath
   run:
