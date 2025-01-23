@@ -1,4 +1,18 @@
+## 2025-01-13
+- [Updated ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2/compare/27714ba...dffd125)
+- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/11ee15a...836b26a)
+- [Updated ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2/compare/27714ba...dffd125)
+- [Updated ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF/compare/8098c71...5875c52)
+- [Updated Comfyui_TTP_Toolset](https://github.com/TTPlanetPig/Comfyui_TTP_Toolset/compare/eaa5b57...6dd3f35)
+- [Updated ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use/compare/db14b95...be8306b)
+- [Updated ComfyUI-Fluxtapoz](https://github.com/logtd/ComfyUI-Fluxtapoz/compare/a6295c0...17c71be)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/4c5c26a...3adcc52)
+- [Updated ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet/compare/f7a42fe...534e794)
+
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/c5216a5...c47b10c)
 ## 2025-01-08
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/4c82741...d0f3752)
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/4c82741...d0f3752)
 - [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/e3a2fa7...11ee15a)
 - [Updated Comfyui-In-Context-Lora-Utils](https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils/compare/aee1204...6ef772d)
 - [Updated ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF/compare/23b9817...8098c71)

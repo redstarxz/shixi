@@ -34,11 +34,11 @@
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
-    "commit": "c5216a5"
+    "commit": "c47b10c"
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
-    "commit": "f7a42fe"
+    "commit": "534e794"
   },
   {
     "repo": "https://github.com/jags111/efficiency-nodes-comfyui",
@@ -106,7 +106,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-KJNodes",
-    "commit": "4c5c26a"
+    "commit": "3adcc52"
   },
   {
     "repo": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
@@ -203,7 +203,7 @@
   },
   {
     "repo": "https://github.com/logtd/ComfyUI-Fluxtapoz",
-    "commit": "a6295c0"
+    "commit": "17c71be"
   },
   {
     "repo": "https://github.com/zhangp365/ComfyUI-PuLID-Flux",
@@ -220,7 +220,7 @@
   },
   {
     "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
-    "commit": "db14b95"
+    "commit": "be8306b"
   },
   {
     "repo": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch",
@@ -236,7 +236,7 @@
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
-    "commit": "eaa5b57"
+    "commit": "6dd3f35"
   },
   {
     "repo": "https://github.com/Nourepide/ComfyUI-Allor",
@@ -256,7 +256,7 @@
   },
   {
     "repo": "https://github.com/city96/ComfyUI-GGUF",
-    "commit": "8098c71"
+    "commit": "5875c52"
   },
   {
     "repo": "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl",
@@ -264,7 +264,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-Florence2",
-    "commit": "27714ba"
+    "commit": "dffd125"
   },
   {
     "repo": "https://github.com/fssorc/ComfyUI_FaceShaper",
@@ -276,7 +276,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
-    "commit": "11ee15a"
+    "commit": "836b26a"
   },
   {
     "repo": "https://github.com/fofr/ComfyUI-AdvancedLivePortrait",
@@ -285,7 +285,11 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-Florence2",
-    "commit": "27714ba"
+    "commit": "dffd125"
+  },
+  {
+    "repo": "https://github.com/chengzeyi/Comfy-WaveSpeed",
+    "commit": "62b9bae"
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-segment-anything-2",
