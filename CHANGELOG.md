@@ -1,31 +1,61 @@
-## 2025-01-13
+## 2025-01-31
+
+- [Add FLUX.1-dev-Controlnet-Canny.safetensors to controlnet](https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Canny/blob/main/diffusion_pytorch_model.safetensors)
+
+## 2025-01-29
+
+- [Add Cosmos-1_0-Diffusion-7B-Video2World.safetensors to diffusion_models](https://huggingface.co/mcmonkey/cosmos-1.0/blob/main/Cosmos-1_0-Diffusion-7B-Video2World.safetensors)
+- [Add Cosmos-1_0-Diffusion-7B-Text2World.safetensors to diffusion_models](https://huggingface.co/mcmonkey/cosmos-1.0/blob/main/Cosmos-1_0-Diffusion-7B-Text2World.safetensors)
+- [Add cosmos_cv8x8x8_1.0.safetensors to vae](https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/blob/main/vae/cosmos_cv8x8x8_1.0.safetensors)
+- [Add oldt5_xxl_fp8_e4m3fn_scaled.safetensors to text_encoders](https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/blob/main/text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors)
+- [Add Flux.1-dev-Controlnet-Upscaler.safetensors to controlnet](https://huggingface.co/jasperai/Flux.1-dev-Controlnet-Upscaler/blob/main/diffusion_pytorch_model.safetensors)
+
+## 2025-01-28
+
+- You can now pass in a URL to a workflow JSON file, e.g. `https://raw.githubusercontent.com/fofr/cog-comfyui/refs/heads/main/examples/api_workflows/flux_txt2img_api.json`
+- `input_file` supports direct video uploads
+- Initial support for common model synonyms (see `weight_synonyms.json`)
+- Updated CI deployment using [`cog-safe-push`](https://github.com/replicate/cog-safe-push)
+
+New weights:
+
+- [Add FLUX.1-dev-Controlnet-Inpainting-Beta.safetensors to controlnet](https://huggingface.co/alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta/blob/main/diffusion_pytorch_model.safetensors)
+- [Add pulid_flux_v0.9.1.safetensors to pulid](https://huggingface.co/guozinan/PuLID/blob/main/pulid_flux_v0.9.1.safetensors)
+- [Add EVA02_CLIP_L_336_psz14_s6B.pt to clip](https://huggingface.co/QuanSun/EVA-CLIP/blob/main/EVA02_CLIP_L_336_psz14_s6B.pt)
+- [Add SD3.5-Large-IP-Adapter.bin to ipadapter](https://huggingface.co/InstantX/SD3.5-Large-IP-Adapter/blob/main/ip-adapter.bin)
+
+New custom nodes:
+
+- [Add Comfy-WaveSpeed](https://github.com/chengzeyi/Comfy-WaveSpeed) custom node
+- [Add ComfyUI_Patches_ll](https://github.com/lldacing/ComfyUI_Patches_ll) custom node
+- [Add ComfyUI-InstantX-IPAdapter-SD3](https://github.com/Slickytail/ComfyUI-InstantX-IPAdapter-SD3) custom node
+
+Updated nodes:
+
+- [Updated ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/916d1e1...255edf2)
 - [Updated ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2/compare/27714ba...dffd125)
-- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/11ee15a...836b26a)
-- [Updated ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2/compare/27714ba...dffd125)
-- [Updated ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF/compare/8098c71...5875c52)
-- [Updated Comfyui_TTP_Toolset](https://github.com/TTPlanetPig/Comfyui_TTP_Toolset/compare/eaa5b57...6dd3f35)
-- [Updated ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use/compare/db14b95...be8306b)
+- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/e3a2fa7...1c966f0)
 - [Updated ComfyUI-Fluxtapoz](https://github.com/logtd/ComfyUI-Fluxtapoz/compare/a6295c0...17c71be)
-- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/4c5c26a...3adcc52)
-- [Updated ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet/compare/f7a42fe...534e794)
-
-- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/c5216a5...c47b10c)
-## 2025-01-08
-- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/4c82741...d0f3752)
-- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/4c82741...d0f3752)
-- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/e3a2fa7...11ee15a)
-- [Updated Comfyui-In-Context-Lora-Utils](https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils/compare/aee1204...6ef772d)
-- [Updated ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF/compare/23b9817...8098c71)
-- [Updated cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere/compare/cd06259...ce510b9)
-- [Updated ComfyUI_LayerStyle_Advance](https://github.com/chflame163/ComfyUI_LayerStyle_Advance/compare/61660a4...4991451)
-- [Updated ComfyUI_LayerStyle](https://github.com/chflame163/ComfyUI_LayerStyle/compare/04fa5d6...f8439eb)
-- [Updated ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use/compare/d416ad2...db14b95)
-- [Updated ComfyUI_ZenID](https://github.com/vuongminh1907/ComfyUI_ZenID/compare/3314d0d...a03144e)
-- [Updated comfyui-reactor-node](https://github.com/Gourieff/comfyui-reactor-node/compare/3ea587d...a430758)
+- [Updated ComfyUI-Kolors-MZ](https://github.com/MinusZoneAI/ComfyUI-Kolors-MZ/compare/ad5de83...4653a73)
+- [Updated ComfyUI-IC-Light](https://github.com/kijai/ComfyUI-IC-Light/compare/7def1cf...0208191)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/4c5c26a...2abf557)
+- [Updated ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts/compare/dff506c...bc8922d)
 - [Updated ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/compare/e617ff2...ff3fdfe)
-- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/78753db...c5216a5)
+- [Updated ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet/compare/f7a42fe...23563ec)
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/78753db...565208b)
+- [Updated ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved/compare/7ec4693...7992292)
+- [Updated ComfyUI-Inspire-Pack](https://github.com/ltdrdata/ComfyUI-Inspire-Pack/compare/bcbed07...6158b5a)
 
-- [Updated ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack/compare/8628fa3...769bc0f)
+## 2025-01-27
+
+- Add vit-base-nsfw-detector to nsfw_detector
+
+- [Add ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll)
+  - Replacement for the faulty ComfyUI-PuLID-Flux custom node (facexlib is broken)
+- [Switch from comfyui-reactor-node to ComfyUI-ReActor](https://github.com/Gourieff/ComfyUI-ReActor)
+  - Includes default NSFW checker, downloaded automatically
+  - Uses forked version of ComfyUI-ReActor which lazy loads NSFW checker to speed up startup times (https://github.com/Gourieff/ComfyUI-ReActor/pull/30)
+
 ## 2025-01-14
 
 - [Add ComfyUI-GlifNodes](https://github.com/glifxyz/ComfyUI-GlifNodes)

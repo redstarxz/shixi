@@ -160,11 +160,14 @@
     "RealESRGAN_x4plus_anime_6B.pth",
     "RealESRGAN_x8.pth"
   ],
-  "TEXT_ENCODERS": [],
+  "TEXT_ENCODERS": [
+    "oldt5_xxl_fp8_e4m3fn_scaled.safetensors"
+  ],
   "CLIP": [
     "clip-vit-large-patch14",
     "clip_g.safetensors",
     "clip_l.safetensors",
+    "EVA02_CLIP_L_336_psz14_s6B.pt",
     "models--QuanSun--EVA-CLIP",
     "sd15/model.fp16.safetensors",
     "sd15/model.safetensors",
@@ -423,8 +426,11 @@
     "diffusers_xl_depth_full.safetensors",
     "diffusers_xl_depth_mid.safetensors",
     "diffusers_xl_depth_small.safetensors",
+    "FLUX.1-dev-Controlnet-Canny.safetensors",
+    "FLUX.1-dev-Controlnet-Inpainting-Beta.safetensors",
     "FLUX.1-dev-ControlNet-Union-Pro.safetensors",
     "flux.1-dev-controlnet-union.safetensors",
+    "Flux.1-dev-Controlnet-Upscaler.safetensors",
     "instantid-controlnet.safetensors",
     "ioclab_sd15_recolor.safetensors",
     "ip-adapter_sd15.pth",
@@ -515,10 +521,12 @@
     "ip-adapter_sdxl_vit-h.safetensors",
     "ip_plus_composition_sd15.safetensors",
     "ip_plus_composition_sdxl.safetensors",
-    "Kolors-IP-Adapter-Plus.bin"
+    "Kolors-IP-Adapter-Plus.bin",
+    "SD3.5-Large-IP-Adapter.bin"
   ],
   "VAE": [
     "ae.safetensors",
+    "cosmos_cv8x8x8_1.0.safetensors",
     "hunyuan_video_vae_bf16.safetensors",
     "mochi/mochi_preview_vae_bf16.safetensors",
     "mochi_vae.safetensors",
@@ -555,6 +563,8 @@
     "stable-cascade/stage_c_lite_bf16.safetensors"
   ],
   "DIFFUSION_MODELS": [
+    "Cosmos-1_0-Diffusion-7B-Text2World.safetensors",
+    "Cosmos-1_0-Diffusion-7B-Video2World.safetensors",
     "flux1-canny-dev.safetensors",
     "flux1-depth-dev.safetensors",
     "flux1-dev-fp8-e4m3fn.safetensors",
@@ -670,7 +680,8 @@
   ],
   "PULID": [
     "ip-adapter_pulid_sdxl_fp16.safetensors",
-    "pulid_flux_v0.9.0.safetensors"
+    "pulid_flux_v0.9.0.safetensors",
+    "pulid_flux_v0.9.1.safetensors"
   ],
   "GLIGEN": [
     "gligen_sd14_textbox_pruned.safetensors",
@@ -802,5 +813,8 @@
   "RESWAPPER": [
     "reswapper_128.onnx",
     "reswapper_256.onnx"
+  ],
+  "NSFW_DETECTOR": [
+    "vit-base-nsfw-detector"
   ]
 }

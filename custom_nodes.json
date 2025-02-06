@@ -18,7 +18,7 @@
   },
   {
     "repo": "https://github.com/ltdrdata/ComfyUI-Inspire-Pack",
-    "commit": "bcbed07"
+    "commit": "6158b5a"
   },
   {
     "repo": "https://github.com/theUpsider/ComfyUI-Logic",
@@ -30,15 +30,15 @@
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
-    "commit": "7ec4693"
+    "commit": "7992292"
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
-    "commit": "c47b10c"
+    "commit": "f736938"
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
-    "commit": "534e794"
+    "commit": "b66cd70"
   },
   {
     "repo": "https://github.com/jags111/efficiency-nodes-comfyui",
@@ -70,15 +70,16 @@
   },
   {
     "repo": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts",
-    "commit": "dff506c"
+    "commit": "bc8922d"
   },
   {
     "repo": "https://github.com/BadCafeCode/masquerade-nodes-comfyui",
     "commit": "432cb4d"
   },
   {
-    "repo": "https://github.com/Gourieff/comfyui-reactor-node",
-    "commit": "a430758"
+    "repo": "https://github.com/fofr/ComfyUI-ReActor",
+    "commit": "4a7587a",
+    "notes": "Fork of https://github.com/Gourieff/ComfyUI-ReActor which lazy loads NSFW checker to speed up startup times (https://github.com/Gourieff/ComfyUI-ReActor/pull/30)"
   },
   {
     "repo": "https://github.com/cubiq/ComfyUI_InstantID",
@@ -106,7 +107,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-KJNodes",
-    "commit": "3adcc52"
+    "commit": "9a3434f"
   },
   {
     "repo": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
@@ -126,7 +127,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-IC-Light",
-    "commit": "7def1cf"
+    "commit": "0208191"
   },
   {
     "repo": "https://github.com/blepping/comfyui_jankhidiffusion",
@@ -162,7 +163,7 @@
   },
   {
     "repo": "https://github.com/MinusZoneAI/ComfyUI-Kolors-MZ",
-    "commit": "ad5de83"
+    "commit": "4653a73"
   },
   {
     "repo": "https://github.com/liusida/ComfyUI-B-LoRA",
@@ -206,9 +207,8 @@
     "commit": "17c71be"
   },
   {
-    "repo": "https://github.com/zhangp365/ComfyUI-PuLID-Flux",
-    "commit": "191cd99",
-    "notes": "Fork of https://github.com/balazik/ComfyUI-PuLID-Flux which fixes forward_orig method"
+    "repo": "https://github.com/lldacing/ComfyUI_PuLID_Flux_ll",
+    "commit": "c5ea258"
   },
   {
     "repo": "https://github.com/lldacing/ComfyUI_StableHair_ll",
@@ -276,7 +276,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
-    "commit": "836b26a"
+    "commit": "1c966f0"
   },
   {
     "repo": "https://github.com/fofr/ComfyUI-AdvancedLivePortrait",
@@ -289,7 +289,7 @@
   },
   {
     "repo": "https://github.com/chengzeyi/Comfy-WaveSpeed",
-    "commit": "62b9bae"
+    "commit": "2fa6fd8"
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-segment-anything-2",
@@ -298,5 +298,25 @@
   {
     "repo": "https://github.com/glifxyz/ComfyUI-GlifNodes",
     "commit": "b86352c"
+  },
+  {
+    "repo": "https://github.com/lldacing/ComfyUI_Patches_ll",
+    "commit": "1acfbbd"
+  },
+  {
+    "repo": "https://github.com/chengzeyi/Comfy-WaveSpeed",
+    "commit": "a9caacb"
+  },
+  {
+    "repo": "https://github.com/Danand/ComfyUI-ComfyCouple",
+    "commit": "faa73a9"
+  },
+  {
+    "repo": "https://github.com/nosiu/comfyui-instantId-faceswap",
+    "commit": "0cc2426"
+  },
+  {
+    "repo": "https://github.com/Slickytail/ComfyUI-InstantX-IPAdapter-SD3",
+    "commit": "adf203e"
   }
 ]
