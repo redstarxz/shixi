@@ -97,7 +97,7 @@
 - realvisxlV50_v50Bakedvae.safetensors
 - realvisxlV50_v50LightningBakedvae.safetensors
 - rundiffusionXL_beta.safetensors
-- sd3.5_large.safetensors
+- sd3.5_large.safetensors (Also available as SD3.5-L.safetensors)
 - sd3.5_large_fp8_scaled.safetensors
 - sd3.5_large_turbo.safetensors
 - sd3_medium.safetensors
@@ -163,9 +163,11 @@
 
 ## Text Encoders
 
+- oldt5_xxl_fp8_e4m3fn_scaled.safetensors
 - clip-vit-large-patch14
 - clip_g.safetensors
 - clip_l.safetensors
+- EVA02_CLIP_L_336_psz14_s6B.pt
 - models--QuanSun--EVA-CLIP
 - sd15/model.fp16.safetensors
 - sd15/model.safetensors
@@ -376,6 +378,7 @@
 - ip_plus_composition_sd15.safetensors
 - ip_plus_composition_sdxl.safetensors
 - Kolors-IP-Adapter-Plus.bin
+- SD3.5-Large-IP-Adapter.bin (Also available as ip_sd35l_instantx.bin)
 
 ## ControlNet
 
@@ -459,9 +462,12 @@
 - diffusers_xl_depth_full.safetensors
 - diffusers_xl_depth_mid.safetensors
 - diffusers_xl_depth_small.safetensors
+- FLUX.1-dev-Controlnet-Canny.safetensors
+- FLUX.1-dev-Controlnet-Inpainting-Beta.safetensors (Also available as 0930_inpaint_cn.safetensors)
 - FLUX.1-dev-ControlNet-Union-Pro.safetensors
 - flux.1-dev-controlnet-union.safetensors
-- instantid-controlnet.safetensors
+- Flux.1-dev-Controlnet-Upscaler.safetensors
+- instantid-controlnet.safetensors (Also available as instantid/diffusion_pytorch_model.safetensors)
 - ioclab_sd15_recolor.safetensors
 - ip-adapter_sd15.pth
 - ip-adapter_sd15_plus.pth
@@ -523,6 +529,7 @@
 ## VAE
 
 - ae.safetensors
+- cosmos_cv8x8x8_1.0.safetensors
 - hunyuan_video_vae_bf16.safetensors
 - mochi/mochi_preview_vae_bf16.safetensors
 - mochi_vae.safetensors
@@ -534,6 +541,8 @@
 
 ## Diffusion models (formerly Unets)
 
+- Cosmos-1_0-Diffusion-7B-Text2World.safetensors
+- Cosmos-1_0-Diffusion-7B-Video2World.safetensors
 - flux1-canny-dev.safetensors
 - flux1-depth-dev.safetensors
 - flux1-dev-fp8-e4m3fn.safetensors
@@ -699,6 +708,7 @@
 
 - ip-adapter_pulid_sdxl_fp16.safetensors
 - pulid_flux_v0.9.0.safetensors
+- pulid_flux_v0.9.1.safetensors
 
 ## GLIGEN
 

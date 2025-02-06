@@ -3,7 +3,7 @@ build:
   cuda: "12.1"
   system_packages:
     - ffmpeg
-  python_version: "3.10"
+  python_version: "3.12"
   python_packages:
     - torch
     - torchvision
@@ -136,10 +136,7 @@ build:
     # ComfyUI-segment-anything-2
     - iopath
   run:
-    - curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/download/v0.8.1/pget_linux_x86_64" && chmod +x /usr/local/bin/pget
-    - curl -L -o  /root/.pyenv/versions/3.10.15/lib/python3.10/site-packages/facexlib/weights/detection_Resnet50_Final.pth  https://huggingface.co/camenduru/PuLID/resolve/main/facexlib/detection_Resnet50_Final.pth
-    - curl -L -o  /root/.pyenv/versions/3.10.15/lib/python3.10/site-packages/facexlib/weights/parsing_bisenet.pth  https://huggingface.co/camenduru/PuLID/resolve/main/facexlib/parsing_bisenet.pth
-    - curl -L -o  /root/.pyenv/versions/3.10.15/lib/python3.10/site-packages/facexlib/weights/parsing_parsenet.pth  https://huggingface.co/camenduru/PuLID/resolve/main/facexlib/parsing_parsenet.pth
+    - curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/latest/download/pget_$(uname -s)_$(uname -m)" && chmod +x /usr/local/bin/pget
     - pip install onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
 predict: "predict.py:Predictor"
 train: "train.py:train"
