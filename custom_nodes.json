@@ -308,6 +308,14 @@
     "commit": "a9caacb"
   },
   {
+    "repo": "https://github.com/Danand/ComfyUI-ComfyCouple",
+    "commit": "faa73a9"
+  },
+  {
+    "repo": "https://github.com/nosiu/comfyui-instantId-faceswap",
+    "commit": "0cc2426"
+  },
+  {
     "repo": "https://github.com/Slickytail/ComfyUI-InstantX-IPAdapter-SD3",
     "commit": "adf203e"
   }
