@@ -339,6 +339,10 @@
     "repo": "https://github.com/LAOGOU-666/Comfyui-Transform",
     "commit": "625b536"
   },
+{
+    "repo": "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb",
+    "commit": "63984de"
+  },
 
   {
     "repo": "https://github.com/Slickytail/ComfyUI-InstantX-IPAdapter-SD3",
