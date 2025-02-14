@@ -123,12 +123,22 @@ build:
     - protobuf>=3.20.3
     - hydra-core
     - blind-watermark
-    - qrcode
+    - qrcode[pil]
     - pyzbar
     - psd-tools
     - gguf>=0.9.1
     - pykalman
     - onnx2torch
+    - imageio-ffmpeg
+    - cachetools
+    - rich_argparse
+    - imageio_ffmpeg
+    - litelama>=0.1.7
+    - PyCryptodome
+    - deep-translator
+    - argostranslate
+    - googletrans-py
+    - requirements-parser
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/docopt-0.6.2-py2.py3-none-any.whl
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/hydra_core-1.3.2-py3-none-any.whl
  

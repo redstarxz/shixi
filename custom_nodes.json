@@ -307,6 +307,39 @@
     "repo": "https://github.com/nosiu/comfyui-instantId-faceswap",
     "commit": "0cc2426"
   },
+    {
+    "repo": "https://github.com/cubiq/PuLID_ComfyUI",
+    "commit": "4e1fd40"
+  },
+    {
+    "repo": "https://github.com/smthemex/ComfyUI_Sonic",
+    "commit": "09f62f3"
+  },
+   {
+    "repo": "https://github.com/melMass/comfy_mtb",
+    "commit": "7f7a62f"
+  },
+ {
+    "repo": "https://github.com/welltop-cn/ComfyUI-TeaCache",
+    "commit": "61636b6"
+  },
+{
+    "repo": "https://github.com/mingsky-ai/ComfyUI-MingNodes",
+    "commit": "afaee2c"
+  },
+{
+    "repo": "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet",
+    "commit": "a14ed7d"
+  },
+{
+    "repo": "https://github.com/BoyuanJiang/FitDiT-ComfyUI",
+    "commit": "17215e3"
+  },
+{
+    "repo": "https://github.com/LAOGOU-666/Comfyui-Transform",
+    "commit": "625b536"
+  },
+
   {
     "repo": "https://github.com/Slickytail/ComfyUI-InstantX-IPAdapter-SD3",
     "commit": "adf203e"
