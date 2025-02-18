@@ -9,7 +9,7 @@ class ComfyUI_FaceShaper(CustomNodeHelper):
             weights_downloader = WeightsDownloader()
             weights_downloader.download_if_not_exists(
                 "landmark.onnx",
-                "https://huggingface.co/redstarxz/comfyw/resolve/main/landmark.onnx",
+                "https://huggingface.co/redstarxz/comfyw/resolve/main/landmark.onnx.tar",
                 "ComfyUI/models/liveportrait/",
             )
 
