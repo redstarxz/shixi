@@ -8,8 +8,8 @@ class ComfyUI_FaceShaper(CustomNodeHelper):
             from weights_downloader import WeightsDownloader
             weights_downloader = WeightsDownloader()
             weights_downloader.download_if_not_exists(
-                "landmark_model.onnx",
-                "https://huggingface.co/redstarxz/comfyw/resolve/main/landmark_model.onnx",
+                "landmark.onnx",
+                "https://huggingface.co/redstarxz/comfyw/resolve/main/landmark.onnx",
                 "ComfyUI/models/liveportrait/",
             )
 
