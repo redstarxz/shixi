@@ -33,7 +33,7 @@ class ComfyUI:
         )
         server_thread.start()
         while not self.is_server_running():
-            if time.time() - start_time > 60:
+            if time.time() - start_time > 600:
                 raise TimeoutError("Server did not start within 60 seconds")
             time.sleep(0.5)
 
@@ -72,6 +72,7 @@ class ComfyUI:
             with urllib.request.urlopen(
                 "http://{}/history/{}".format(self.server_address, "123")
             ) as response:
+                print(response)
                 return response.status == 200
         except URLError:
             return False
