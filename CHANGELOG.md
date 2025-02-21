@@ -1,4 +1,6 @@
+## 2025-02-21
 
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/d0f3752...d372725)
 ## 2025-02-19
 
 - [Add creapromptLightning_v13.safetensors to checkpoints](https://civitai.com/models/383364?modelVersionId=453382)
