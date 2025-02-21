@@ -5,6 +5,7 @@
     "absolutereality_v181.safetensors",
     "albedobaseXL_v13.safetensors",
     "albedobaseXL_v21.safetensors",
+    "albedobaseXL_v31Large.safetensors",
     "animagine-xl-3.0.safetensors",
     "anything-v3-fp16-pruned.safetensors",
     "artUniverse_sdxlV50.safetensors",
@@ -16,6 +17,7 @@
     "copaxCuteXLSDXL10_v4.safetensors",
     "copaxTimelessxlSDXL1_v122.safetensors",
     "copaxTimelessxlSDXL1_v8.safetensors",
+    "creapromptLightning_v13.safetensors",
     "crystalClearXL_ccxl.safetensors",
     "Deliberate_v2.safetensors",
     "disneyPixarCartoon_v10.safetensors",
@@ -37,6 +39,7 @@
     "Epicrealismxl_Hades.safetensors",
     "epicrealismXL_v10.safetensors",
     "epicrealismXL_v7FinalDestination.safetensors",
+    "Flex.1-alpha.safetensors",
     "flux1-dev-fp8.safetensors",
     "flux1-schnell-fp8.safetensors",
     "Hyper-SDXL-1step-Unet-Comfyui.fp16.safetensors",
@@ -56,6 +59,8 @@
     "leosamsHelloworldXL_helloworldXL60.safetensors",
     "ltx-video-2b-v0.9.1.safetensors",
     "ltx-video-2b-v0.9.safetensors",
+    "lumina_2.safetensors",
+    "lumina_2_model_bf16.safetensors",
     "magicmixReverie_v10.safetensors",
     "majicmixRealistic_v7.safetensors",
     "motionctrl.pth",
@@ -161,7 +166,9 @@
     "RealESRGAN_x8.pth"
   ],
   "TEXT_ENCODERS": [
-    "oldt5_xxl_fp8_e4m3fn_scaled.safetensors"
+    "gemma_2_2b_fp16.safetensors",
+    "oldt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors"
   ],
   "CLIP": [
     "clip-vit-large-patch14",

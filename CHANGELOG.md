@@ -1,3 +1,65 @@
+
+## 2025-02-19
+
+- [Add creapromptLightning_v13.safetensors to checkpoints](https://civitai.com/models/383364?modelVersionId=453382)
+
+## 2025-02-18
+
+New weights:
+
+- [Add ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors to text_encoders](https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/blob/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors)
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/4027466...b07258c)
+
+New custom nodes:
+
+- [Add Comfyui-In-Context-Lora-Utils](https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils) custom node
+- [Add Comfyui_TTP_Toolset](https://github.com/TTPlanetPig/Comfyui_TTP_Toolset) custom node
+
+Updated custom nodes:
+
+- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/ce58968...2997d65)
+- [Updated ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll/compare/22a7030...d5cc097)
+- [Updated rgthree-comfy](https://github.com/rgthree/rgthree-comfy/compare/5d771b8...31b784b)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/86b5453...095c8d4)
+- [Updated was-node-suite-comfyui](https://github.com/WASasquatch/was-node-suite-comfyui/compare/2afeeeb...3ed45af)
+- [Updated ComfyUI_tinyterraNodes](https://github.com/TinyTerra/ComfyUI_tinyterraNodes/compare/b292f8e...251f805)
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/8629188...c36626c)
+- [Updated comfyui-tooling-nodes](https://github.com/Acly/comfyui-tooling-nodes/compare/facd659...ea75515)
+- [Updated comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux/compare/5a049bd...1e9eac6)
+
+## 2025-02-13
+
+- [Add albedobaseXL_v31Large.safetensors to checkpoints](https://civitai.com/models/140737?modelVersionId=1041855)
+
+## 2025-02-10
+
+- [Add Flex.1-alpha.safetensors to checkpoints](https://huggingface.co/ostris/Flex.1-alpha/blob/main/Flex.1-alpha.safetensors)
+
+New weights:
+
+- [Add lumina_2_model_bf16.safetensors to checkpoints](https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/blob/main/split_files/diffusion_models/lumina_2_model_bf16.safetensors)
+- [Add gemma_2_2b_fp16.safetensors to text_encoders](https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/blob/main/split_files/text_encoders/gemma_2_2b_fp16.safetensors)
+- [Add lumina_2.safetensors to checkpoints](https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/blob/main/all_in_one/lumina_2.safetensors)
+
+Updated ComfyUI and custom nodes:
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/255edf2...4027466)
+- [Updated comfyui-prompter-fofrai](https://github.com/fofr/comfyui-prompter-fofrai/compare/4a0318f...15472a9)
+- [Updated Comfy-WaveSpeed](https://github.com/chengzeyi/Comfy-WaveSpeed/compare/a9caacb...3db162b)
+- [Updated ComfyUI-Florence2](https://github.com/kijai/ComfyUI-Florence2/compare/dffd125...90b012e)
+- [Updated ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper/compare/1c966f0...ce58968)
+- [Updated ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll/compare/c5ea258...22a7030)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/2abf557...86b5453)
+- [Updated was-node-suite-comfyui](https://github.com/WASasquatch/was-node-suite-comfyui/compare/056bada...2afeeeb)
+- [Updated ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts/compare/bc8922d...a53ef9b)
+- [Updated ComfyUI_tinyterraNodes](https://github.com/TinyTerra/ComfyUI_tinyterraNodes/compare/339ee9c...b292f8e)
+- [Updated ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet/compare/23563ec...b66cd70)
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/565208b...8629188)
+- [Updated ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved/compare/7992292...94eb456)
+- [Updated comfyui-tooling-nodes](https://github.com/Acly/comfyui-tooling-nodes/compare/fe39d22...facd659)
+- [Updated ComfyUI-Inspire-Pack](https://github.com/ltdrdata/ComfyUI-Inspire-Pack/compare/6158b5a...ecf8ab6)
+
 ## 2025-01-31
 
 - [Add FLUX.1-dev-Controlnet-Canny.safetensors to controlnet](https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Canny/blob/main/diffusion_pytorch_model.safetensors)
