@@ -2,6 +2,7 @@ from custom_node_helper import CustomNodeHelper
 
 MODELS = [
     "landmark.onnx",
+    "models/buffalo_l",
 ]
 class ComfyUI_FaceShaper(CustomNodeHelper):
 
