@@ -232,10 +232,6 @@
     "commit": "f8439eb"
   },
   {
-    "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
-    "commit": "6dd3f35"
-  },
-  {
     "repo": "https://github.com/Nourepide/ComfyUI-Allor",
     "commit": "af9caec"
   },
@@ -260,10 +256,6 @@
     "commit": "0a87efa"
   },
   {
-    "repo": "https://github.com/kijai/ComfyUI-Florence2",
-    "commit": "dffd125"
-  },
-  {
     "repo": "https://github.com/fssorc/ComfyUI_FaceShaper",
     "commit": "308ed8f"
   },
@@ -283,10 +275,6 @@
   {
     "repo": "https://github.com/kijai/ComfyUI-Florence2",
     "commit": "90b012e"
-  },
-  {
-    "repo": "https://github.com/chengzeyi/Comfy-WaveSpeed",
-    "commit": "2fa6fd8"
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-segment-anything-2",
