@@ -350,10 +350,6 @@
     "commit": "4bea354"
   },
   {
-    "repo": "https://github.com/zhangp365/ComfyUI-utils-nodes",
-    "commit": "a03bab0"
-  },
-  {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
     "commit": "13bd85f"
   }
