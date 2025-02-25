@@ -145,7 +145,6 @@ build:
     - conformer
     - funasr>=1.1.3
     - tf-keras
-    - deepface>=0.0.93
     - av
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/docopt-0.6.2-py2.py3-none-any.whl
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/hydra_core-1.3.2-py3-none-any.whl
