@@ -248,7 +248,7 @@
   },
   {
     "repo": "https://github.com/city96/ComfyUI-GGUF",
-    "commit": "5875c52"
+    "commit": "298192e"
   },
   {
     "repo": "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl",
@@ -347,6 +347,14 @@
   {
     "repo": "https://github.com/billwuhao/ComfyUI_StepAudioTTS",
     "commit": "4bea354"
+  },
+  {
+    "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+    "commit": "16cecad"
+  },
+  {
+    "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
+    "commit": "bd437b7"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",

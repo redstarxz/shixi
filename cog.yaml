@@ -11,9 +11,9 @@ build:
     - torchaudio
     - torchsde
     - einops
-    - transformers>=4.39.3
+    - transformers>=4.44.0
     - tokenizers>=0.13.3
-    - sentencepiece
+    - sentencepiece>=0.2.0
     - safetensors>=0.3.0
     - aiohttp
     - accelerate>=1.1.1
@@ -119,7 +119,7 @@ build:
     - rich
     - google-generativeai
     - transparent-background
-    - bitsandbytes>=0.41.1
+    - bitsandbytes>=0.44.0
     - peft>=0.12.0
     - protobuf>=3.20.3
     - hydra-core
@@ -146,6 +146,7 @@ build:
     - conformer
     - funasr>=1.1.3
     - av
+    - mmgp
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/docopt-0.6.2-py2.py3-none-any.whl
     - https://github.com/chflame163/ComfyUI_LayerStyle_Advance/raw/refs/heads/main/whl/hydra_core-1.3.2-py3-none-any.whl
 
