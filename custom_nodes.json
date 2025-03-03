@@ -138,8 +138,16 @@
     "commit": "32142fe"
   },
   {
+    "repo": "https://github.com/lldacing/ComfyUI_BiRefNet_ll",
+    "commit": "8bda575"
+  },
+  {
     "repo": "https://github.com/fofr/comfyui-prompter-fofrai",
     "commit": "15472a9"
+  },
+  {
+    "repo": "https://github.com/Miosp/ComfyUI-FBCNN",
+    "commit": "c737c93"
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-SUPIR",
@@ -305,7 +313,7 @@
   },
     {
     "repo": "https://github.com/smthemex/ComfyUI_Sonic",
-    "commit": "09f62f3"
+    "commit": "6595df0"
   },
    {
     "repo": "https://github.com/melMass/comfy_mtb",
@@ -313,7 +321,7 @@
   },
  {
     "repo": "https://github.com/welltop-cn/ComfyUI-TeaCache",
-    "commit": "61636b6"
+    "commit": "062efba"
   },
 {
     "repo": "https://github.com/mingsky-ai/ComfyUI-MingNodes",
@@ -346,15 +354,27 @@
   },
   {
     "repo": "https://github.com/billwuhao/ComfyUI_StepAudioTTS",
-    "commit": "4bea354"
+    "commit": "c7b70eb"
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "16cecad"
+    "commit": "8c451f4"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
     "commit": "bd437b7"
+  },
+  {
+    "repo": "https://github.com/smthemex/ComfyUI_YuE",
+    "commit": "d560498"
+  },
+  {
+    "repo": "https://github.com/AIFSH/SeedVC-ComfyUI",
+    "commit": "10731e1"
+  },
+  {
+    "repo": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper",
+    "commit": "5066845"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
