@@ -1,4 +1,43 @@
 
+
+New custom nodes:
+
+- [Add ComfyUI-DepthAnythingV2](https://github.com/kijai/ComfyUI-DepthAnythingV2) custom node
+- [Add ComfyUI_BiRefNet_ll](https://github.com/lldacing/ComfyUI_BiRefNet_ll) custom node
+- [Add ComfyUI-FBCNN](https://github.com/Miosp/ComfyUI-FBCNN) custom node
+
+New weights:
+
+- [Add controlnet-densepose-sdxl.safetensors to controlnet](https://huggingface.co/jschoormans/controlnet-densepose-sdxl/blob/main/diffusion_pytorch_model.safetensors)
+- [Add fbcnn_color.pth to fbcnn](https://github.com/jiaxi-jiang/FBCNN/releases/download/v1.0/fbcnn_color.pth)
+
+DepthAnything weights:
+
+- [Add depth_anything_v2_vits_fp32.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_vits_fp32.safetensors)
+- [Add depth_anything_v2_vits_fp16.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_vits_fp16.safetensors)
+- [Add depth_anything_v2_vitl_fp32.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_vitl_fp32.safetensors)
+- [Add depth_anything_v2_vitl_fp16.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_vitl_fp16.safetensors)
+- [Add depth_anything_v2_vitb_fp32.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_vitb_fp32.safetensors)
+- [Add depth_anything_v2_vitb_fp16.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_vitb_fp16.safetensors)
+- [Add depth_anything_v2_metric_vkitti_vitl_fp32.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_metric_vkitti_vitl_fp32.safetensors)
+- [Add depth_anything_v2_metric_hypersim_vitl_fp32.safetensors to depthanything](https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_metric_hypersim_vitl_fp32.safetensors)
+
+BiRefNet weights:
+
+- [Add swin_large_patch4_window12_384_22kto1k.pth to birefnet](https://huggingface.co/ViperYX/BiRefNet/blob/main/swin_large_patch4_window12_384_22kto1k.pth)
+- [Add BiRefNet-ep480.pth to birefnet](https://huggingface.co/ViperYX/BiRefNet/blob/main/BiRefNet-ep480.pth)
+- [Add BiRefNet-DIS_ep580.pth to birefnet](https://huggingface.co/ViperYX/BiRefNet/blob/main/BiRefNet-DIS_ep580.pth)
+- [Add DIS-TR_TEs.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet-DIS5K-TR_TEs/blob/main/model.safetensors)
+- [Add COD.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet-COD/blob/main/model.safetensors)
+- [Add HRSOD.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet-HRSOD/blob/main/model.safetensors)
+- [Add DIS.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet-DIS5K/blob/main/model.safetensors)
+- [Add Matting.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet-matting/blob/main/model.safetensors)
+- [Add Portrait.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet-portrait/blob/main/model.safetensors)
+- [Add General-Lite-2K.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet_lite-2K/blob/main/model.safetensors)
+- [Add General-Lite.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet_T/blob/main/model.safetensors)
+- [Add General-HR.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet_HR/blob/main/model.safetensors)
+- [Add General.safetensors to birefnet](https://huggingface.co/ZhengPeng7/BiRefNet/blob/main/model.safetensors)
+
 ## 2025-02-27
 
 Wan 2.1 weights:
@@ -115,7 +154,7 @@ Updated ComfyUI and custom nodes:
 
 ## 2025-01-28
 
-- You can now pass in a URL to a workflow JSON file, e.g. `https://raw.githubusercontent.com/fofr/cog-comfyui/refs/heads/main/examples/api_workflows/flux_txt2img_api.json`
+- You can now pass in a URL to a workflow JSON file, e.g. `https://raw.githubusercontent.com/replicate/cog-comfyui/refs/heads/main/examples/api_workflows/flux_txt2img_api.json`
 - `input_file` supports direct video uploads
 - Initial support for common model synonyms (see `weight_synonyms.json`)
 - Updated CI deployment using [`cog-safe-push`](https://github.com/replicate/cog-safe-push)
@@ -489,7 +528,7 @@ Add checkpoints:
 
 ## 2024-09-23
 
-- [Fix broken pipe error](https://github.com/fofr/cog-comfyui/pull/172) causing ComfyUI workflows to stop when using cog v0.9.13 and later
+- [Fix broken pipe error](https://github.com/replicate/cog-comfyui/pull/172) causing ComfyUI workflows to stop when using cog v0.9.13 and later
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/b33cd61..3a0eeee)
 - [Add ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors to clip](https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/blob/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors) for improved long text in flux
 - [Add epicrealism_pureEvolutionV5-inpainting.safetensors to checkpoints](https://civitai.com/api/download/models/134361?type=Model&format=SafeTensor&size=pruned&fp=fp16)
@@ -726,7 +765,7 @@ Add more ultralytics detectors:
 
 Fixes:
 
-- Allow duplicate URLs within workflow ([fixes #120](https://github.com/fofr/cog-comfyui/issues/120))
+- Allow duplicate URLs within workflow ([fixes #120](https://github.com/replicate/cog-comfyui/issues/120))
 
 New checkpoints:
 
@@ -1056,9 +1095,9 @@ Add [Hyper-SD Lora and UNet weights](https://huggingface.co/ByteDance/Hyper-SD):
 
 ## 2024-04-25
 
-Update [ComfyUI_Essentials to latest](https://github.com/cubiq/ComfyUI_essentials/commit/101ebaef8df8b0c7f55a810c8394e3276b0487e1) as requested in [#71](https://github.com/fofr/cog-comfyui/issues/71)
+Update [ComfyUI_Essentials to latest](https://github.com/cubiq/ComfyUI_essentials/commit/101ebaef8df8b0c7f55a810c8394e3276b0487e1) as requested in [#71](https://github.com/replicate/cog-comfyui/issues/71)
 
-New SD15 loras and embeddings as requested in [#72](https://github.com/fofr/cog-comfyui/issues/72):
+New SD15 loras and embeddings as requested in [#72](https://github.com/replicate/cog-comfyui/issues/72):
 
 - [age_slider-LECO-v1.safetensors](https://civitai.com/models/179792/age-slider)
 - [weight_slider-LECO-v1.safetensors](https://civitai.com/models/180008?modelVersionId=202032)
@@ -1113,7 +1152,7 @@ Update dependencies:
 ## 2024-04-17
 
 - [Update the Impact-Pack custom node](https://github.com/fofr/ComfyUI-Impact-Pack/commit/07a18e7c31ff7489fe7169370b3475a8af41ed4a) to support latest IPAdapter-Plus nodes.
-- Add support for [comfyui-tooling-nodes](https://github.com/Acly/comfyui-tooling-nodes) to [add base64 image handling](https://github.com/fofr/cog-comfyui/pull/50)
+- Add support for [comfyui-tooling-nodes](https://github.com/Acly/comfyui-tooling-nodes) to [add base64 image handling](https://github.com/replicate/cog-comfyui/pull/50)
 - Add option to return WebP optimised images from model
 - Fix PhotoMaker by using official implementation and updating custom node
 
@@ -1229,7 +1268,7 @@ Models added:
 
 ## 2024-02-20
 
-- Add support for [WAS nodes](https://github.com/fofr/cog-comfyui/pull/25)
+- Add support for [WAS nodes](https://github.com/replicate/cog-comfyui/pull/25)
 - Add support for [comfyui-segment-anything](https://github.com/storyicon/comfyui_segment_anything)
 
 Models added:
@@ -1247,7 +1286,7 @@ Models added:
 
 ## 2024-02-17
 
-- Add support for [ComfyUI-Impact-Pack](https://github.com/fofr/cog-comfyui/pull/22)
+- Add support for [ComfyUI-Impact-Pack](https://github.com/replicate/cog-comfyui/pull/22)
 - Add ViT-H, ViT-L and ViT-B [segment anything models](https://github.com/facebookresearch/segment-anything)
 - Update [ComfyUI-AnimateDiff-Evolved](https://github.com/kosinkadink/ComfyUI-AnimateDiff-Evolved) to support Gen2 nodes (Fixes #19)
 
@@ -1256,7 +1295,7 @@ Models added:
 - Add support for [InstantID](https://github.com/cubiq/ComfyUI_InstantID)
 - Add support for [comfyui-reactor-nodes](https://github.com/Gourieff/comfyui-reactor-node)
 - Improve support for Insightface in ComfyUI_IPAdapter_plus
-- [Fix FaceID lora location](https://github.com/fofr/cog-comfyui/issues/15)
+- [Fix FaceID lora location](https://github.com/replicate/cog-comfyui/issues/15)
 
 Models added:
 

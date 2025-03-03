@@ -454,6 +454,7 @@
 - controlnet-canny-sdxl-1.0.fp16.safetensors
 - controlnet-canny-sdxl-1.0.safetensors
 - controlnet-canny-sdxl-1.0_V2.safetensors
+- controlnet-densepose-sdxl.safetensors
 - controlnet-depth-sdxl-1.0.fp16.safetensors
 - controlnet-depth-sdxl-1.0.safetensors
 - controlnet-openpose-sdxl-1.0.safetensors
@@ -776,9 +777,43 @@
 - random_mask_brushnet_ckpt_sdxl_v0.safetensors
 - segmentation_mask_brushnet_sdxl_v1.safetensors
 
+## BiRefNet
+
+- BiRefNet-DIS_ep580.pth
+- BiRefNet-ep480.pth
+- COD.safetensors
+- DIS-TR_TEs.safetensors
+- DIS.safetensors
+- General-HR.safetensors
+- General-Lite-2K.safetensors
+- General-Lite.safetensors
+- General.safetensors
+- HRSOD.safetensors
+- Matting.safetensors
+- Portrait.safetensors
+- pvt_v2_b2.pth
+- pvt_v2_b5.pth
+- swin_base_patch4_window12_384_22kto1k.pth
+- swin_large_patch4_window12_384_22kto1k.pth
+
 ## Style models
 
 - flux1-redux-dev.safetensors
+
+## DepthAnything
+
+- depth_anything_v2_metric_hypersim_vitl_fp32.safetensors
+- depth_anything_v2_metric_vkitti_vitl_fp32.safetensors
+- depth_anything_v2_vitb_fp16.safetensors
+- depth_anything_v2_vitb_fp32.safetensors
+- depth_anything_v2_vitl_fp16.safetensors
+- depth_anything_v2_vitl_fp32.safetensors
+- depth_anything_v2_vits_fp16.safetensors
+- depth_anything_v2_vits_fp32.safetensors
+
+## FBCNN (Jpeg artifact removal)
+
+- fbcnn_color.pth
 
 ## Anyline
 
