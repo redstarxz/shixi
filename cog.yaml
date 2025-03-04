@@ -150,7 +150,6 @@ build:
     - xformers
     - sageattention
     - simpleeval
-    - flash-attn
     - exllamav2
     - tensorboard
     - munch
