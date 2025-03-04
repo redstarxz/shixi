@@ -500,6 +500,8 @@
     "thibaud_xl_openpose.safetensors",
     "thibaud_xl_openpose_256lora.safetensors",
     "TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors",
+    "comfyui_portrait_lora64.safetensors",
+    "comfyui_subject_lora16.safetensors",
     "TTPLANET_Controlnet_Tile_realistic_v2_rank256.safetensors"
   ],
   "IPADAPTER": [
