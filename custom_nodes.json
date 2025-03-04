@@ -365,10 +365,6 @@
     "commit": "bd437b7"
   },
   {
-    "repo": "https://github.com/AIFSH/SeedVC-ComfyUI",
-    "commit": "10731e1"
-  },
-  {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
     "commit": "13bd85f"
   }
