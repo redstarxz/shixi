@@ -373,10 +373,6 @@
     "commit": "10731e1"
   },
   {
-    "repo": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper",
-    "commit": "5066845"
-  },
-  {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
     "commit": "13bd85f"
   }
