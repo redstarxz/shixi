@@ -30,7 +30,7 @@
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
-    "commit": "94eb456"
+    "commit": "916dd55"
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
@@ -358,11 +358,15 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "e2b58aa"
+    "commit": "bc11af3"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
     "commit": "bd437b7"
+  },
+  {
+    "repo": "https://github.com/scraed/LanPaint",
+    "commit": "56874a3"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
