@@ -26,4 +26,39 @@ class ComfyUI_Shixi(CustomNodeHelper):
                 kwargs["weights_downloader"].download_weights(
                     model
                 )
-
+        elif (appname == "portrays"):
+            MODELS=[
+                "flux1-redux-dev.safetensors",
+                "detection_Resnet50_Final.pth",
+                "clip_l.safetensors",
+                "landmark.onnx",
+                "sigclip_vision_patch14_384.safetensors",
+                "parsing_parsenet.pth",
+                "models/buffalo_l",
+                "flux1-fill-dev.safetensors",
+                "codeformer.pth",
+                "ae.safetensors",
+                "t5xxl_fp8_e4m3fn.safetensors"
+            ]
+            for model in MODELS:
+                kwargs["weights_downloader"].download_weights(
+                    model
+                )
+        elif (appname == "hairfit"):
+            MODELS=[
+                "flux1-redux-dev.safetensors",
+                "detection_Resnet50_Final.pth",
+                "clip_l.safetensors",
+                "landmark.onnx",
+                "sigclip_vision_patch14_384.safetensors",
+                "parsing_parsenet.pth",
+                "models/buffalo_l",
+                "flux1-fill-dev.safetensors",
+                "codeformer.pth",
+                "ae.safetensors",
+                "t5xxl_fp8_e4m3fn.safetensors"
+            ]
+            for model in MODELS:
+                kwargs["weights_downloader"].download_weights(
+                    model
+                )
