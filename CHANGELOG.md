@@ -1,5 +1,6 @@
+## 2025-03-12
 
-
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/1804397...01015bf)
 New custom nodes:
 
 - [Add ComfyUI-DepthAnythingV2](https://github.com/kijai/ComfyUI-DepthAnythingV2) custom node
