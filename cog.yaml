@@ -11,7 +11,8 @@ build:
     - torchaudio
     - torchsde
     - einops
-    - transformers>=4.44.0
+    - transformers>=4.49.0
+    - comfyui-frontend-package==1.11.8
     - tokenizers>=0.13.3
     - sentencepiece>=0.2.0
     - safetensors>=0.3.0
