@@ -26,6 +26,8 @@ class ComfyUI:
         self.input_directory = input_directory
         self.output_directory = output_directory
         self.apply_helper_methods("prepare", weights_downloader=self.weights_downloader)
+        if (os.environ.get("COG_APPNAME")):
+            self.apply_helper_methods("app_prepare", weights_downloader=self.weights_downloader, appname=os.environ.get("COG_APPNAME"))
 
         start_time = time.time()
         server_thread = threading.Thread(

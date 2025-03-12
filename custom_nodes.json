@@ -272,7 +272,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
-    "commit": "4863a2a"
+    "commit": "c31f1be"
   },
   {
     "repo": "https://github.com/fofr/ComfyUI-AdvancedLivePortrait",
@@ -353,12 +353,8 @@
     "commit": "6ef772d"
   },
   {
-    "repo": "https://github.com/billwuhao/ComfyUI_StepAudioTTS",
-    "commit": "c7b70eb"
-  },
-  {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "bc11af3"
+    "commit": "1fe746b"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
@@ -366,7 +362,11 @@
   },
   {
     "repo": "https://github.com/scraed/LanPaint",
-    "commit": "56874a3"
+    "commit": "8289e69"
+  },
+  {
+    "repo": "https://github.com/2kpr/ComfyUI-PMRF",
+    "commit": "e105c04"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
