@@ -204,6 +204,8 @@
   ],
   "LORAS": [
     "comfyui_portrait_lora64.safetensors",
+    "360_epoch20.safetensors",
+    "Wan_i2v_hadouken_v2_s1200.safetensors",
     "comfyui_subject_lora16.safetensors",
     "AWPortrait-CN_1.0.safetensors",
     "FLUX.1-Turbo-Alpha.safetensors",
