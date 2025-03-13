@@ -171,6 +171,7 @@
     "oldt5_xxl_fp8_e4m3fn_scaled.safetensors",
     "umt5_xxl_fp16.safetensors",
     "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "umt5-xxl-enc-fp8_e4m3fn.safetensors",
     "ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors"
   ],
   "CLIP": [
@@ -186,6 +187,7 @@
     "t5xxl_fp16.safetensors",
     "t5xxl_fp8_e4m3fn.safetensors",
     "t5xxl_fp8_e4m3fn_scaled.safetensors",
+    "open-clip-xlm-roberta-large-vit-huge-14_visual_fp32.safetensors",
     "ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors"
   ],
   "CLIP_VISION": [
@@ -596,6 +598,7 @@
     "wan2.1_i2v_480p_14B_bf16.safetensors",
     "wan2.1_i2v_720p_14B_bf16.safetensors",
     "wan2.1_t2v_1.3B_bf16.safetensors",
+    "Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors",
     "wan2.1_t2v_14B_bf16.safetensors"
   ],
   "PHOTOMAKER": [
