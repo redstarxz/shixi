@@ -321,7 +321,7 @@
   },
  {
     "repo": "https://github.com/welltop-cn/ComfyUI-TeaCache",
-    "commit": "062efba"
+    "commit": "2e75a8b"
   },
 {
     "repo": "https://github.com/mingsky-ai/ComfyUI-MingNodes",
@@ -354,7 +354,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "69e477c"
+    "commit": "f07850c"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
