@@ -172,6 +172,7 @@
     "umt5_xxl_fp16.safetensors",
     "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
     "umt5-xxl-enc-fp8_e4m3fn.safetensors",
+    "open-clip-xlm-roberta-large-vit-huge-14_visual_fp32.safetensors",
     "ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors"
   ],
   "CLIP": [
@@ -187,7 +188,6 @@
     "t5xxl_fp16.safetensors",
     "t5xxl_fp8_e4m3fn.safetensors",
     "t5xxl_fp8_e4m3fn_scaled.safetensors",
-    "open-clip-xlm-roberta-large-vit-huge-14_visual_fp32.safetensors",
     "ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors"
   ],
   "CLIP_VISION": [
