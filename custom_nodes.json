@@ -107,7 +107,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-KJNodes",
-    "commit": "11a3744"
+    "commit": "1016861"
   },
   {
     "repo": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
@@ -354,7 +354,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "f07850c"
+    "commit": "84a26d3"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
@@ -363,6 +363,10 @@
   {
     "repo": "https://github.com/scraed/LanPaint",
     "commit": "9ae04ab"
+  },
+  {
+    "repo": "https://github.com/redstarxz/ComfyUI-PMRF",
+    "commit": "29c8993"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",

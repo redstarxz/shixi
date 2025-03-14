@@ -6,7 +6,7 @@ build:
     - ffmpeg
   python_version: "3.12"
   python_packages:
-    - torch
+    - torch==2.4.1
     - torchvision
     - torchaudio
     - torchsde
@@ -98,7 +98,7 @@ build:
 
     # SUPIR
     - open-clip-torch>=2.24.0
-    - pytorch-lightning>=2.2.1
+    - pytorch-lightning>=2.4.0
 
     # For train.py
     - opencv-contrib-python
@@ -151,6 +151,11 @@ build:
     - xformers
     - sageattention
     - simpleeval
+    - basicsr-fixed
+    - torch-fidelity>=0.3.0
+    - realesrgan>=0.2.5
+    - torch-ema>=0.3
+    - natten==0.17.4+torch240cu124 -f https://shi-labs.com/natten/wheels/
     - https://huggingface.co/redstarxz/comfyw/resolve/main/docopt-0.6.2-py2.py3-none-any.whl
     - https://huggingface.co/redstarxz/comfyw/resolve/main/hydra_core-1.3.2-py3-none-any.whl
 
