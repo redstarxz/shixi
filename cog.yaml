@@ -1,12 +1,12 @@
 image: "r8.im/redstarxz/10xi:latest"
 build:
   gpu: true
-  cuda: "12.1"
+  cuda: "12.4"
   system_packages:
     - ffmpeg
   python_version: "3.12"
   python_packages:
-    - torch==2.4.1
+    - torch==2.5.1
     - torchvision
     - torchaudio
     - torchsde
@@ -155,7 +155,7 @@ build:
     - torch-fidelity>=0.3.0
     - realesrgan>=0.2.5
     - torch-ema>=0.3
-    - natten==0.17.4+torch240cu124 -f https://shi-labs.com/natten/wheels/
+    - natten==0.17.4+torch250cu124 -f https://shi-labs.com/natten/wheels/
     - https://huggingface.co/redstarxz/comfyw/resolve/main/docopt-0.6.2-py2.py3-none-any.whl
     - https://huggingface.co/redstarxz/comfyw/resolve/main/hydra_core-1.3.2-py3-none-any.whl
 
