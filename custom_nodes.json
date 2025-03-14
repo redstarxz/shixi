@@ -366,7 +366,11 @@
   },
   {
     "repo": "https://github.com/redstarxz/ComfyUI-PMRF",
-    "commit": "29c8993"
+    "commit": "9a4bb85"
+  },
+  {
+    "repo": "https://github.com/chenpipi0807/PIP_ArtisticWords",
+    "commit": "655e836"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
