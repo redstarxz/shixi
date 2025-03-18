@@ -4,6 +4,10 @@ build:
   cuda: "12.4"
   system_packages:
     - ffmpeg
+    - xvfb
+    - musescore
+    - espeak-ng
+    - libxcb-xinerama0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xkb1 libxkbcommon-x11-0
   python_version: "3.12"
   python_packages:
     - torch==2.5.1
@@ -155,6 +159,26 @@ build:
     - torch-fidelity>=0.3.0
     - realesrgan>=0.2.5
     - torch-ema>=0.3
+    - torchdiffeq
+    - pyarrow
+    - jieba
+    - pypinyin
+    - cn2an
+    - LangSegment
+    - x-transformers
+    - pylance
+    - ema-pytorch
+    - prefigure
+    - muq
+    - mutagen
+    - pyopenjtalk
+    - pykakasi
+    - Unidecode
+    - phonemizer
+    - wandb
+    - abctoolkit
+    - samplings
+    - pyparsing
     - natten==0.17.4+torch250cu124 -f https://shi-labs.com/natten/wheels/
     - https://huggingface.co/redstarxz/comfyw/resolve/main/docopt-0.6.2-py2.py3-none-any.whl
     - https://huggingface.co/redstarxz/comfyw/resolve/main/hydra_core-1.3.2-py3-none-any.whl

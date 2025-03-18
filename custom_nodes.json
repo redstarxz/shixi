@@ -373,6 +373,18 @@
     "commit": "655e836"
   },
   {
+    "repo": "https://github.com/LucipherDev/ComfyUI-TangoFlux",
+    "commit": "5b3d967"
+  },
+  {
+    "repo": "https://github.com/billwuhao/ComfyUI_DiffRhythm",
+    "commit": "dc67bd9"
+  },
+  {
+    "repo": "https://github.com/billwuhao/ComfyUI_NotaGen",
+    "commit": "8b3aa71"
+  },
+  {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
     "commit": "13bd85f"
   }
