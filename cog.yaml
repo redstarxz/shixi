@@ -171,7 +171,7 @@ build:
     - prefigure
     - muq
     - mutagen
-    - pyopenjtalk==0.3.0 --no-build-isolation
+    - pyopenjtalk --no-build-isolation
     - pykakasi
     - Unidecode
     - phonemizer
