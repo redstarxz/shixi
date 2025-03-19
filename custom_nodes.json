@@ -187,7 +187,7 @@
   },
   {
     "repo": "https://github.com/redstarxz/ComfyUI-BiRefNet-ZHO",
-    "commit": "914b919",
+    "commit": "4f30396",
     "notes": "Fork of https://github.com/ZHO-ZHO-ZHO/ComfyUI-BiRefNet which fixes util imports"
   },
   {
@@ -358,7 +358,7 @@
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
-    "commit": "bd437b7"
+    "commit": "174cc45"
   },
   {
     "repo": "https://github.com/scraed/LanPaint",
@@ -378,7 +378,7 @@
   },
   {
     "repo": "https://github.com/redstarxz/ComfyUI_DiffRhythm",
-    "commit": "3dc5bd1"
+    "commit": "a63673e"
   },
   {
     "repo": "https://github.com/billwuhao/ComfyUI_NotaGen",
