@@ -186,8 +186,8 @@
     "commit": "eb5fec4"
   },
   {
-    "repo": "https://github.com/shadel/ComfyUI-BiRefNet-ZHO",
-    "commit": "0f4879d",
+    "repo": "https://github.com/redstarxz/ComfyUI-BiRefNet-ZHO",
+    "commit": "914b919",
     "notes": "Fork of https://github.com/ZHO-ZHO-ZHO/ComfyUI-BiRefNet which fixes util imports"
   },
   {
@@ -354,7 +354,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "84a26d3"
+    "commit": "e5fbe79"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
@@ -377,8 +377,8 @@
     "commit": "5b3d967"
   },
   {
-    "repo": "https://github.com/billwuhao/ComfyUI_DiffRhythm",
-    "commit": "dc67bd9"
+    "repo": "https://github.com/redstarxz/ComfyUI_DiffRhythm",
+    "commit": "3dc5bd1"
   },
   {
     "repo": "https://github.com/billwuhao/ComfyUI_NotaGen",
