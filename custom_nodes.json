@@ -187,7 +187,7 @@
   },
   {
     "repo": "https://github.com/redstarxz/ComfyUI-BiRefNet-ZHO",
-    "commit": "4f30396",
+    "commit": "c406ac4",
     "notes": "Fork of https://github.com/ZHO-ZHO-ZHO/ComfyUI-BiRefNet which fixes util imports"
   },
   {
