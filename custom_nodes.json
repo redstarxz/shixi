@@ -354,11 +354,11 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "e5fbe79"
+    "commit": "56bd434"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
-    "commit": "174cc45"
+    "commit": "268e125"
   },
   {
     "repo": "https://github.com/scraed/LanPaint",
@@ -383,6 +383,14 @@
   {
     "repo": "https://github.com/billwuhao/ComfyUI_NotaGen",
     "commit": "8b3aa71"
+  },
+  {
+    "repo": "https://github.com/ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp",
+    "commit": "03d6619"
+  },
+  {
+    "repo": "https://github.com/ainewsto/comfyui-labs-google",
+    "commit": "5b08c52"
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
