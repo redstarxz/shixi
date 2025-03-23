@@ -19,7 +19,7 @@ build:
     - comfyui-frontend-package==1.14.5
     - tokenizers>=0.13.3
     - sentencepiece>=0.2.0
-    - safetensors>==0.4.2
+    - safetensors>=0.4.2
     - aiohttp>=3.11.8
     - accelerate>=1.1.1
     - yarl>=1.18.0
