@@ -16,7 +16,7 @@ build:
     - torchsde
     - einops
     - transformers>=4.49.0
-    - comfyui-frontend-package==1.11.8
+    - comfyui-frontend-package==1.12.14
     - tokenizers>=0.13.3
     - sentencepiece>=0.2.0
     - safetensors>=0.3.0
