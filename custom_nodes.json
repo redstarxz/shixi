@@ -239,10 +239,6 @@
     "commit": "f8439eb"
   },
   {
-    "repo": "https://github.com/Nourepide/ComfyUI-Allor",
-    "commit": "af9caec"
-  },
-  {
     "repo": "https://github.com/chflame163/ComfyUI_LayerStyle_Advance",
     "commit": "4991451"
   },
@@ -321,7 +317,7 @@
   },
  {
     "repo": "https://github.com/welltop-cn/ComfyUI-TeaCache",
-    "commit": "2e75a8b"
+    "commit": "f0c6c56"
   },
 {
     "repo": "https://github.com/mingsky-ai/ComfyUI-MingNodes",
@@ -354,11 +350,11 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "56bd434"
+    "commit": "4b8672a"
   },
   {
     "repo": "https://github.com/smthemex/ComfyUI_PhotoDoodle",
-    "commit": "268e125"
+    "commit": "45aecf3"
   },
   {
     "repo": "https://github.com/scraed/LanPaint",
@@ -382,11 +378,11 @@
   },
   {
     "repo": "https://github.com/billwuhao/ComfyUI_NotaGen",
-    "commit": "8b3aa71"
+    "commit": "78029f0"
   },
   {
     "repo": "https://github.com/ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp",
-    "commit": "03d6619"
+    "commit": "97a8525"
   },
   {
     "repo": "https://github.com/ainewsto/comfyui-labs-google",
@@ -394,6 +390,6 @@
   },
   {
     "repo": "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset",
-    "commit": "13bd85f"
+    "commit": "08fb8b9"
   }
 ]
