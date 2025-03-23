@@ -1,3 +1,6 @@
+## 2025-03-23
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/01015bf...e471c72)
 ## 2025-03-12
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/1804397...01015bf)
